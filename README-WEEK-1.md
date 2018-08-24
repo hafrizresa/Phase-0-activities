@@ -50,7 +50,9 @@ Materi & Referensi :
 
 Tugas :
 - :anchor:
-[[**Exercises 1**] Codecademy Course - HTML](https://github.com/hafrizresa/Phase-0-activities/blob/master/tugas/HTML%20exercise.png)
+[[**Exercises 1**] Codecademy Course - HTML](https://www.codecademy.com/learn/learn-html)
+- :star:
+[jawaban - HTML](https://github.com/hafrizresa/Phase-0-activities/blob/master/tugas/HTML%20exercise.png)
 - 💪
 [[**Latihan Pribadi 1**] Membuat Halaman HTML Sederhana](modules/anchor-laman-web-pertamaku.md)
 
