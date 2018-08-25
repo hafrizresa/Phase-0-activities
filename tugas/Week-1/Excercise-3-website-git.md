@@ -1,1 +1,1 @@
-[ini linknya](hafrizresa.github.io)
+[ini linknya](https://hafrizresa.github.io/)

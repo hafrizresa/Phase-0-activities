@@ -104,6 +104,8 @@ Materi & Referensi :
 Tugas :
 - :anchor:
 [[**Exercise 3**] - Website yang dihosting dengan Github Pages](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/github-pages-rev.md)
+- :star:
+[**Excercise 3 - Website Github**](https://hafrizresa.github.io/)
 -  [Blogging teknikal terkait skill pekan ini](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/blog.md)
 
 Selamat memulai petualanganmu yang lebih nyata dari sebelumnya! Jika ada hal yang perlu ditanyakan, langsung saja berdiskusi di grup ya.
