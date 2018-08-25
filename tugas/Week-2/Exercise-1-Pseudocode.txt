@@ -1,0 +1,64 @@
+1. Newton Second Law
+Jika "resultan gaya" sama dengan "masa benda" dikali "percepatan benda"
+simpan "a" dengan isi data "masa benda"
+simpan "b" dengan isi data "percepatan benda"
+kalikan "a" dengan "b"
+simpan "c" dengan hasil perkalian "a" dan "b"
+maka c = a * b
+c = 600 * 2
+c = 1200
+
+2. Tahun Kabisat
+Tahun kabisat adalah habis dibagi "4"; tidak habis dibagi "100"; dan habis dibagi "4"; habis dibagi "100"; habis dibagi"400"
+read and save "a" with data "year"
+save "b" with data "4"
+save "c" with data "100"
+save "d" with data "400"
+because "4" represent both conditions
+"a" modulo "b"
+if result is 0, then "a" is kabisat year
+
+if (a%b == 0 && a%c != 0) {
+    ini tahun kabisat
+}
+else if (a%b == 0 && a%d == 0){
+    ini tahun kabisat
+}
+else {bukan tahun kabisat}
+
+//  ATAU
+e = a%b == 0 && a%c != 0
+f = a%c == 0 && a%d == 0
+if (e == true || f == true) {
+    ini tahun kabisat
+}
+else {bukan tahun kabisat}
+
+//  ATAU
+secara singkat karena bilangan "4" mewakili kedua kondisi maka
+if (a%b == 0) {
+    ini tahun kabisat
+}
+else {bukan tahun kabisat}
+
+3. Laundy Day
+save "a" with data "0"
+
+while (a<20) {
+    Start machine
+    a++
+}
+
+4.Periksa Kuku
+
+a = 0
+while (a<40){
+    b = a%2 == 0 // misalkan ini kuku panjang
+    if (b == true) {
+        maka akan dihukum
+    }
+    else {
+        maka akan dipuji
+    }
+    a++
+}
