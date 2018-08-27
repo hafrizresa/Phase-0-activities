@@ -1,64 +1,67 @@
 1. Newton Second Law
-Jika "resultan gaya" sama dengan "masa benda" dikali "percepatan benda"
-simpan "a" dengan isi data "masa benda"
-simpan "b" dengan isi data "percepatan benda"
-kalikan "a" dengan "b"
-simpan "c" dengan hasil perkalian "a" dan "b"
-maka c = a * b
-c = 600 * 2
-c = 1200
+//  Pseudocode
+Store "massa benda" with 600
+Store "percepatan benda" with 2
+Store "resultan gaya" without any value
+Calculate "masa benda" times "percepatan benda"
+Set "percepatan benda" with calculation result
+display "percepatan benda"
+
+// Nature Language
+Simpan "masa benda" dengan nilai 600
+Simpan "percepatan benda" dengan nilai 2
+Simpan "resultan gaya" tanpa nilai
+Hitung "massa benda" dikali dengan "percepatan benda"
+Masukan hasil perhitungan ke "percepatan benda"
+tampilkan "percepatan benda"
 
 2. Tahun Kabisat
-Tahun kabisat adalah habis dibagi "4"; tidak habis dibagi "100"; dan habis dibagi "4"; habis dibagi "100"; habis dibagi"400"
-read and save "a" with data "year"
-save "b" with data "4"
-save "c" with data "100"
-save "d" with data "400"
-because "4" represent both conditions
-"a" modulo "b"
-if result is 0, then "a" is kabisat year
+//  Pseudocode
+Store "a" with data 4
+Store "b" with data 100
+Store "c" with data 400
+store "Year" without any value
+IF "Year" modulo "a" equal 0 and "Year" modulo "b" not equal to 0 OR "year" modulo "a" equal 0 and "year" modulo "b" equal 0 and "year" modulo "c" equal 0
+    DISPLAY "ini tahun kabisat"
+Else
+    DISPLAY "ini bukan tahun kabisat"
 
-if (a%b == 0 && a%c != 0) {
-    ini tahun kabisat
-}
-else if (a%b == 0 && a%d == 0){
-    ini tahun kabisat
-}
-else {bukan tahun kabisat}
-
-//  ATAU
-e = a%b == 0 && a%c != 0
-f = a%c == 0 && a%d == 0
-if (e == true || f == true) {
-    ini tahun kabisat
-}
-else {bukan tahun kabisat}
-
-//  ATAU
-secara singkat karena bilangan "4" mewakili kedua kondisi maka
-if (a%b == 0) {
-    ini tahun kabisat
-}
-else {bukan tahun kabisat}
+//  Nature Language
+Simpan "a" dengan data 4
+Simpan "b" dengan data 100
+Simpan "c" dengan data 400
+Simpan "Year" tanpa data
+Jika "Year" habis dibagi 4 dan tidak habis dibagi 100 ATAU "year" habis dibagi 4 habis dibagi 100 habis dibagi 400,
+maka lakukan step 2a. Lakukan "ini tahun kabisat". Selain itu lakukan step 2b. Lakukan "ini bukan tahun kabisat"
 
 3. Laundy Day
-save "a" with data "0"
+//  Pseudocode
+Store "start machine" with 0
+WHILE "start machine" lesser than 20
+    DISPLAY "kelas belum penuh" 
+    ADD "start machine" with by 1
+END OF WHILE
+DISPLAY "Mulai mencuci"
 
-while (a<20) {
-    Start machine
-    a++
-}
+//  Nature Language
+Simpan "start machine" dengan nilai 0
+Ketika "start machine" masih dibawah 20 Tampilkan "kelas belum penuh"
+Ulangi step 4 ketika "start machine" masih dibawah 20 dan tambahkan 1 pada "start machine"
+tampilkan "mulai mencuci" jika "start machine" sudah 20
 
-4.Periksa Kuku
+4. Periksa Kuku
+//  Pseudocode
+Store "a" with 0
+WHILE "a" lesser than 40
+    IF "a" equal "kuku panjang"
+        DISPLAY "mendapat pujian"
+    ELSE
+        DISPLAY "mendapat hukuman"
+    ADD "a" by 1
+END OF WHILE
 
-a = 0
-while (a<40){
-    b = a%2 == 0 // misalkan ini kuku panjang
-    if (b == true) {
-        maka akan dihukum
-    }
-    else {
-        maka akan dipuji
-    }
-    a++
-}
+//  Nature Language
+Simpan "a" dengan nilai 0
+Ketika "a" bertemu dengan "kuku panjang" maka tampilkan "mendapat pujian"
+selain itu Tampilkan "mendapat hukuman"
+Ulangi step 3 jika "a" masih dibawah 40 dan tambahkan 1 pada "a"
