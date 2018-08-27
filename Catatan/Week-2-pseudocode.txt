@@ -1,0 +1,43 @@
+// Contoh algoritma
+// ini pseudocode
+Luas Segitiga
+Store "alas" with 5
+Store "tinggi" with 9
+Store "luas" without value
+calculate "alas" times "tingg" divide 2
+set "luas" with calculate result
+
+// ini normal language
+simpan data alas dengan nilai 5
+simpan data tinggi dengan nilai 9
+simpan data luas tanpa nilai
+hitung alas kali tinggi dibagi 2
+simpan hasil perhitungan di "luas"
+
+var alas = 5;
+var tinggi = 9;
+var luas = null
+luas = alas * tinggi * 0.5
+alert(luas)
+
+// contoh pseudocode ifelse
+
+// contoh looping pseudocode
+1. counter
+2. condition
+3. increment / decrement
+
+store "student" With 0
+while "student" < 20
+  display "kelas belum dimulai"
+  add "student" with 1
+endwhile
+display "kelas dimulai"
+
+var a = 0
+
+while (a<20) {
+  console.log('kelas belum dimulai');
+  a = a + 1
+}
+console.log('kelas dimulai')
