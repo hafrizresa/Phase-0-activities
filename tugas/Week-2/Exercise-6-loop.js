@@ -32,7 +32,7 @@
         var e = "i love coding";
         var e1 = "LOOPING PERTAMA";
         var f;
-        for (f=0; f<20; f++) {
+        for (f=0; f<=20; f++) {
             if (f == 0) {
                 console.log(e1)
             }

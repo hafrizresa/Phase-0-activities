@@ -32,15 +32,16 @@ for (a2 = 0; a2 < rows2; a2++) {
 // ATAU
 console.log("ATAU")
 a2 = 0;
-b2 = 0;
+
 while (a2 < rows2) {
+    b2 = 0;
+    c2 = "";
     while (b2 < rows2) {
         c2 = c2 + "*";
-        b2++
+        b2 = b2 + 1
     }
     console.log(c2);
-    //   apakah loop while selalu ke reset default setiap variabel setelah selesai fungsinya? tolong jelaskan terimakasih
-    a2++
+    a2 = a2 + 1
 }
 
 // 3. Menyusun Barisan Tangga Bintang Dengan Nested Looping
@@ -49,37 +50,26 @@ var rows3 = 5
 var a3 = 0;
 var b3 = 0;
 var c3 = "*";
+
 for (a3 = 0; a3 < rows3; a3++) {
     for (b3 = 0; b3 < a3; b3++) {
         c3 = c3 + "*"
     }
-    console.log(c3);
-    c3 = "*"
+    console.log(c3)
+    c3 = "*";
 }
 
 // ATAU
-console.log("ATAU");
-a3 = 0;
-b3 = 0;
+console.log("ATAU")
+a3 = 0
+
 while (a3 < rows3) {
+    b3 = 0;
     while (b3 < a3) {
         c3 = c3 + "*";
-        b3++
+        b3 = b3 + 1
     }
     console.log(c3);
-    //   apakah loop while selalu ke reset default setiap variabel setelah selesai fungsinya? tolong jelaskan terimakasih
+    c3 = "*"
     a3++
-}
-
-// COBA CARA LAIN
-console.log("COBA CARA LAIN")
-c3 = "*"
-for (a3=0; a3<rows3; a3++){
-  if (a3 == 0){
-    console.log(c3)
-  }
-  else{
-    c3 = c3 + "*";
-    console.log(c3)
-  }
 }
