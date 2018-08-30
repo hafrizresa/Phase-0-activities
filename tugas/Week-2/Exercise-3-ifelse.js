@@ -13,4 +13,7 @@ if (peran == "Ksatria") {
 else if (peran == "Tabib") {
     alert("Selamat datang di Dunia Proxytia, " + nama + "\nHalo Tabib " + nama + ", kamu akan membantu temanmu yang terluka.")
 }
-else { alert("Selamat datang di Dunia Proxytia, " + nama + "\nHalo Penyihir " + nama + ", ciptakan keajaiban yang membantu kemenanganmu!") }
+else if (peran == "Penyihir"){ 
+    alert("Selamat datang di Dunia Proxytia, " + nama + "\nHalo Penyihir " + nama + ", ciptakan keajaiban yang membantu kemenanganmu!") 
+}
+else {alert('pilih peran dengan benar')}
