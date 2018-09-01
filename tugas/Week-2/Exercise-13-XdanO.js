@@ -21,7 +21,7 @@ function xo(str) {
 
 // ATAU
 
-function xo(str) {
+function xo1(str) {
     var countx = str.match(/x/g);
     var indexx = countx.length;
     var counto = str.match(/o/g);
@@ -38,3 +38,9 @@ console.log(xo('oxooxo')); // false
 console.log(xo('oxo')); // false
 console.log(xo('xxxooo')); // true
 console.log(xo('xoxooxxo')); // true
+
+console.log(xo1('xoxoxo')); // true
+console.log(xo1('oxooxo')); // false
+console.log(xo1('oxo')); // false
+console.log(xo1('xxxooo')); // true
+console.log(xo1('xoxooxxo')); // true
