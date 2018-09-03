@@ -1,19 +1,20 @@
-var nama = prompt('isi nama kamu')
-while (nama == "") {
-    nama = prompt("nama harus di isi, silahkan isi nama kamu")
-}
-var peran = prompt('Halo ' + nama + "," + "Pilih peranmu untuk memulai game ! Ksatria, Tabib, dan Penyihir")
-while (peran == "") {
-    prompt('peran harus di isi, silahkan isi peran kamu')
-}
+var nama = "Hafriz"
 
-if (peran == "Ksatria") {
-    alert("Selamat datang di Dunia Proxytia, " + nama + "\nHalo Ksatria " + nama + ", kamu dapat menyerang dengan senjatamu !")
+var peran = "Ksatria"
+
+if (nama == "") {
+    console.log("Nama harus diisi")
+}
+else if (peran == "") {
+    console.log("Peran Harus diisi dengan Ksatria/Tabib/Penyihir")
+}
+else if (peran == "Ksatria") {
+    console.log("Selamat datang di Dunia Proxytia, " + nama + "\nHalo Ksatria " + nama + ", kamu dapat menyerang dengan senjatamu !")
 }
 else if (peran == "Tabib") {
-    alert("Selamat datang di Dunia Proxytia, " + nama + "\nHalo Tabib " + nama + ", kamu akan membantu temanmu yang terluka.")
+    console.log("Selamat datang di Dunia Proxytia, " + nama + "\nHalo Tabib " + nama + ", kamu akan membantu temanmu yang terluka.")
 }
-else if (peran == "Penyihir"){ 
-    alert("Selamat datang di Dunia Proxytia, " + nama + "\nHalo Penyihir " + nama + ", ciptakan keajaiban yang membantu kemenanganmu!") 
+else if (peran == "Penyihir") {
+    console.log("Selamat datang di Dunia Proxytia, " + nama + "\nHalo Penyihir " + nama + ", ciptakan keajaiban yang membantu kemenanganmu!")
 }
-else {alert('pilih peran dengan benar')}
+else { console.log('pilih peran dengan benar') }
