@@ -23,14 +23,12 @@ var input = [
 
 function dataHandling(input) {
     var counter = 0
-
     while (counter <= input.length - 1) {
         var counterDalam = 0;
         var indexDalam = ''
         while (counterDalam <= counter) {
             counterDalam++
             indexDalam = indexDalam + counterDalam;
-
         }
         console.log('Nomor ID:' + input[counter][0]);
         console.log('Nama Lengkap: ' + input[counter][1]);
@@ -39,5 +37,4 @@ function dataHandling(input) {
         counter++
     }
 }
-
 dataHandling(input)
