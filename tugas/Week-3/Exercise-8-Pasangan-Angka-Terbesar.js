@@ -11,7 +11,9 @@ function pasanganTerbesar(num) {
         }
     }
     temp = temp + 1
-    return angkaTerbesar + string[temp]
+    var calculation = angkaTerbesar + string[temp]
+    var result = Number(calculation)
+    return result
 }
 
 console.log(pasanganTerbesar(641573)); // 73

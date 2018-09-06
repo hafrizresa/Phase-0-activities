@@ -4,7 +4,7 @@ function perkalianUnik(arr) {
         var copy = arr.slice();
         copy[i] = 1
         var temp = 1
-        for (j = 0; j < arr.length; j++) {
+        for (var j = 0; j < arr.length; j++) {
             temp = temp * copy[j]
         }
         result[i] = temp

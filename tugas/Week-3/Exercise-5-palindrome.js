@@ -1,3 +1,4 @@
+'use strict';
 function palindrome(kata){
     if (kata[0] === kata[kata.length-1]){
       return true

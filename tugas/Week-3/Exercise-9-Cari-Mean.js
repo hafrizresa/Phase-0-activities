@@ -1,7 +1,8 @@
+
 function cariMean(arr) {
     arr.sort()
-   angkaTerbesar = arr[arr.length-1]
-   angkaTerkecil = arr[0]
+   var angkaTerbesar = arr[arr.length-1]
+   var angkaTerkecil = arr[0]
    var temp = 0
    for (angkaTerkecil; angkaTerkecil<angkaTerbesar; angkaTerkecil++){
      temp = temp + 1
