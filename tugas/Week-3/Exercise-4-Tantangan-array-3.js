@@ -42,7 +42,7 @@ function dataHandling2(input) {
             console.log('desember');
             break
     }
-    console.log(tanggal)
+    console.log(tanggal.sort(function(b,a){return a-b}))
     copy[3] = tanggal.join('-')
     console.log(copy[3])
     console.log(copy[1])

@@ -1,5 +1,5 @@
 function targetTerdekat(arr)
-{temp = 0
+{var temp = 0
 for (var i=0; i<arr.length; i++){
   if (arr[i] === 'o') {
     for (arr[i]; arr[i]!= 'x'; arr[i++])
