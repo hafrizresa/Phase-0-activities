@@ -1,30 +1,25 @@
-var kata = 'I am a passionate developer'
+function hitungHuruf(kata) {
+  var arr = kata.split(' ')
+  var tempKata = '', maxIndex = 0
 
-var splited = kata.split(' ')
-var temp = []
+  for (var i = 0; i < arr.length; i++) {
+    var count = 0;
+    tempKata = arr[i]
+    for (var j = 0; j < tempKata.length; j++) {
+      var tempHuruf = tempKata[j]
 
-for (var i = 0; i < splited.length; i++) {
-  var penampung = 0
-  for (var j = 0; j < splited[i].length; j++) {
-    for (var k = 0; k < splited[i].length; k++) {
-      if (splited[i][j] === splited[i][k]) {
-        penampung += 1
+      for (var k = j + 1; k < tempKata.length; k++) {
+        if (tempHuruf === tempKata[k]) {
+          count++
+        }
       }
     }
-  }
-  temp.push(penampung)
-}
-for (var l = 0; l < temp.length; l++) {
-  penampung = 0
-  for (var m = 0; m < temp.length; m++) {
-    if (temp[l] > temp[m]) {
-      penampung += 1
+    if (count > maxIndex) {
+      maxIndex = count
+      arr = tempKata
+    }
+    if (maxIndex > 0) {
+      return tempKata
     }
   }
-  if (penampung == temp.length - 1) {
-    var result = temp.indexOf(temp[l])
-  }
 }
-console.log(splited[result])
-
-// MASIH SALAH DI PASSIONATE
