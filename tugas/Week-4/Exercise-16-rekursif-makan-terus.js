@@ -1,7 +1,7 @@
 function makanTerusRekursif(waktu) {
   // you can only write your code here!
+  var sisa;
   var makan = 0;
-  var waktuSisa;
 
   if (waktu === 0) {
     return 0;
@@ -9,10 +9,10 @@ function makanTerusRekursif(waktu) {
     return 1;
   } else {
     makan++;
-    waktuSisa = waktu - 15;
+    sisa = waktu - 15;
   }
 
-  return makan + makanTerusRekursif(waktuSisa);
+  return makan + makanTerusRekursif(sisa);
 }
 
 // TEST CASES

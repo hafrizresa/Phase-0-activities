@@ -6,8 +6,8 @@ function totalDigitRekursif(angka) {
   else {
     var num = String(angka);
     var tanpaBelakang = Number(num.slice(0, -1));
-    var numBelakang = Number(num[num.length - 1]);
-    return numBelakang += totalDigitRekursif(tanpaBelakang);
+    var angkaBelakang = Number(num[num.length - 1]);
+    return angkaBelakang += totalDigitRekursif(tanpaBelakang);
   }
 }
 

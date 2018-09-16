@@ -2,13 +2,13 @@ function kaliTerusRekursif(angka) {
     if (angka.toString().length === 1) {
       return angka;
     } else {
-      var hasilKali = Number(angka.toString().substring(0, 1));
+      var perkalian = Number(angka.toString().substring(0, 1));
       
       for (var i = 1; i < angka.toString().length; i++) {
-        hasilKali = hasilKali * Number(angka.toString()[i]);
+        perkalian = perkalian * Number(angka.toString()[i]);
       }  
       
-      return kaliTerusRekursif(hasilKali);
+      return kaliTerusRekursif(perkalian);
     }
   }
   
