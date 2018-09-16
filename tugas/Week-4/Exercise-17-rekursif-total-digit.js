@@ -2,7 +2,8 @@ function totalDigitRekursif(angka) {
     // you can only write your code here!
     if(String(angka).length===1){
       return angka;
-    }else{
+    }
+    else{
       var num= String(angka);
       var tanpaBelakang= Number(num.slice(0,-1));
       var numBelakang= Number(num[num.length-1]);
