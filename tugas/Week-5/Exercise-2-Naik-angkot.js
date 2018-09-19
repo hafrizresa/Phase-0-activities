@@ -2,7 +2,6 @@ function naikAngkot(arrPenumpang) {
     if (arrPenumpang.length == 0) {
         return arrPenumpang
     }
-    var arrPenumpang = [['Dimitri', 'B', 'F'], ['Icha', 'A', 'B']]
     var route = ['A', 'B', 'C', 'D', 'E', 'F']
     var arr = arrPenumpang
     var result = []
