@@ -8,7 +8,7 @@ function changeMe(arr) {
         obj.firstname = arr[i][0]
         obj.lastname = arr[i][1]
         obj.gender = arr[i][2]
-        if (arr[i][3] >= 1) {
+        if (arr[i][3] >= 1 && arr[i][3] <= 2018) {
             obj.age = 2018 - arr[i][3]
         }
         else { obj.age = 'invalid birth date' }
@@ -20,7 +20,7 @@ function changeMe(arr) {
 }
 
 // TEST CASES
-changeMe([['Christ', 'Evans', 'Male', 1982], ['Robert', 'Downey', 'Male']]); // 1. Christ Evans:
+changeMe([['Christ', 'Evans', 'Male', 2020], ['Robert', 'Downey', 'Male']]); // 1. Christ Evans:
 // { firstName: 'Christ',
 //   lastName: 'Evans',
 //   gender: 'Male',
