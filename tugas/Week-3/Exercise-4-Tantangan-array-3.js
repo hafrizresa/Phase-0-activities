@@ -45,7 +45,7 @@ function dataHandling2(input) {
     console.log(tanggal.sort(function(b,a){return a-b}))
     copy[3] = tanggal.join('-')
     console.log(copy[3])
-    console.log(input[1])
+    console.log(copy[1].slice(0,14))
 }
 var input = ["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca"]
 dataHandling2(input)
